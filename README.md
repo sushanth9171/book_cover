@@ -29,6 +29,7 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 # PROGRAM:<!DOCTYPE html>
+~~~
 from django.contrib import admin
 from django.urls import path
 from cover import views
@@ -190,7 +191,7 @@ urlpatterns = [
 
 </body>
 </html>
-
+~~~
 
 # OUTPUT:
 <img width="260" height="387" alt="image" src="https://github.com/user-attachments/assets/48c98ff3-4e3f-4876-acaf-3dcfe1593702" />
